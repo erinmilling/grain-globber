@@ -5,7 +5,10 @@ var $p = $('p');
 var $li = $('li');
 
 grains.forEach(function (grain) {
+  var $h2 = $('<h2>');
   var $img = $('<img>');
+  var $p = $('<p>');
+  var $li = $('<li>');
 
   $img.attr('src', 'images/' + grain.img);
   $h2.html(grain.name);
