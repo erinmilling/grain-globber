@@ -10,7 +10,10 @@ grains.forEach(function (grain) {
   var $img = $('<img>');
   var $p = $('<p>');
   var $li = $('<li>');
+
   $img.attr('src', 'images/' + grain.img);
+
+  $li.append($img);
 
 
 });
